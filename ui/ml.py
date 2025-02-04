@@ -33,6 +33,6 @@ def run_ml():
             st.success(f'예측 결과는 {result} 달러 입니다.')
 
             #round(result[0]) : 소수점 이하 반올림
-            # 숫자에 ,를 넣고 싶으면 f'{result[0]:,}' 이렇게 쓰면 된다.
+            # 숫자에 ,넣어주기. format(result,',')
 
     
